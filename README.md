@@ -1,12 +1,12 @@
 # 📊 SQL Data Analytics Project
 
-A hands-on SQL analytics project built on a fictional retail data warehouse. This project covers the full analytics workflow — from database setup and exploration to segmentation, trend analysis, and final reporting views — using **Microsoft SQL Server (T-SQL)**.
+A hands-on SQL analytics project built on a retail data warehouse. This project covers the full analytics workflow — from database setup and exploration to segmentation, trend analysis, and final reporting views — using **Microsoft SQL Server (T-SQL)**.
 
 ---
 
 ## 🎯 Project Objective
 
-The goal of this project is to practice and demonstrate core SQL skills used by data analysts in real business environments. Each script targets a specific type of analysis, building progressively from exploration to insight.
+The goal of this project is to practice and demonstrate core SQL skills used by data engineers and analysts in real business environments. Each script targets a specific type of analysis, building progressively from exploration to insight.
 
 ---
 
@@ -24,29 +24,7 @@ The project uses a `gold` schema with three core tables:
 
 ## 📁 Project Structure
 
-```
-sql-data-analytics-project/
-│
-├── 00_init_database.sql          # Create DB, schema, and tables; bulk load CSV data
-│
-├── 01_database_exploration.sql   # Explore tables and column metadata
-├── 02_dimensions_exploration.sql # Explore unique values in dimension tables
-├── 03_date_range_exploration.sql # Identify temporal boundaries of data
-│
-├── 04_measures_exploration.sql   # Core KPIs: total sales, orders, customers
-├── 05_magnitude_analysis.sql     # Group metrics by country, gender, category
-├── 06_ranking_analysis.sql       # Top/bottom products and customers
-│
-├── 07_change_over_time_analysis.sql  # Monthly/yearly sales trends
-├── 08_cumulative_analysis.sql        # Running totals and moving averages
-├── 09_performance_analysis.sql       # YoY product performance with LAG()
-│
-├── 10_data_segmentation.sql      # Customer and product segments using CASE
-├── 11_part_to_whole_analysis.sql # Category contribution to overall revenue
-│
-├── 12_report_customers.sql       # Final customer report view (KPIs + segments)
-└── 13_report_products.sql        # Final product report view (KPIs + segments)
-```
+> 🔧 *Full folder structure will be added once the project is complete.*
 
 ---
 
@@ -142,12 +120,13 @@ Building reusable SQL views that consolidate all metrics into one place.
 
 ## 📚 Learning Resource
 
-This project was built while following the **SQL Data Analytics** course by [Data With Baraa](https://www.datawithbaraa.com). The scripts were written alongside the course and adapted with personal notes and structure.
+This project was built while following the **SQL Data Analytics** course by [Data With Baraa](https://www.datawithbaraa.com).
 
 ---
 
 ## 👤 Author
 
 **Hafiz Uzair Akhtar**  
-Aspiring Data Analyst | SQL · Python · Power BI  
-[GitHub](https://github.com/HafizUzairAkhtar) · [LinkedIn](#) *(add your link)*
+Data Engineering Enthusiast | SQL · Python · ETL Pipelines · PySpark  
+📧 uzair.akhtar501@gmail.com  
+[GitHub](https://github.com/HafizUzairAkhtar) · [LinkedIn](https://linkedin.com/in/uzair08)
