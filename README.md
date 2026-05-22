@@ -1,6 +1,6 @@
 # 📊 SQL Data Analytics Project
 
-A hands-on SQL analytics project built on a retail data warehouse. This project covers the full analytics workflow — from database setup and exploration to segmentation, trend analysis, and final reporting views — using **Microsoft SQL Server (T-SQL)**.
+A hands-on SQL analytics project built on a retail data warehouse. This project covers the full analytics workflow from database setup and exploration to segmentation, trend analysis, and final reporting views using **Microsoft SQL Server (T-SQL)**.
 
 ---
 
