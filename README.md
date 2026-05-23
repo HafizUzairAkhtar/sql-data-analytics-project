@@ -94,7 +94,7 @@ Building reusable SQL views that consolidate all metrics into one place.
 
 1. Open **SQL Server Management Studio (SSMS)**
 2. Run `00_init_database.sql` first to create the database, schema, and load the data
-3. Run scripts in order from `01` to `13` — each builds on the previous understanding
+3. Run scripts in order from `01` to `13` each builds on the previous understanding
 4. Scripts `12` and `13` create views you can query anytime with `SELECT * FROM gold.report_customers`
 
 > **Note:** The `BULK INSERT` in `00_init_database.sql` points to a local file path. Update the path to match where your CSV files are stored on your machine.
