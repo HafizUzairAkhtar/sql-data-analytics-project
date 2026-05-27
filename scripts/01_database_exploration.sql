@@ -8,7 +8,7 @@
 --     It helps us understand what tables exist, which schema they belong to,
 --     and what columns and data types each table contains.
 --
---     This is always the first step before doing any analysis — you need to
+--     This is always the first step before doing any analysis you need to
 --     know what data you have before you can work with it.
 --
 -- System Tables Used:
