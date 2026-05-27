@@ -6,7 +6,7 @@
 -- Purpose:
 --     This script explores the dimension tables to understand the unique
 --     values they contain. Dimension tables describe the "who" and "what"
---     of our data — who the customers are and what products exist.
+--     of our data who the customers are and what products exist.
 --
 --     Knowing the distinct values in dimension tables helps us understand
 --     the scope of the data before jumping into any analysis.
