@@ -6,7 +6,7 @@
 -- Purpose:
 --     This script explores the date boundaries of our data.
 --     Before doing any time-based analysis, we need to know the
---     full time range we are working with — how far back the data
+--     full time range we are working with how far back the data
 --     goes and how recent it is.
 --
 --     It also checks the age range of customers, which is useful
