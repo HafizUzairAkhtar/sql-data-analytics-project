@@ -5,7 +5,7 @@
 -- =============================================================================
 -- Purpose:
 --     This script calculates the core business metrics (measures) of the dataset.
---     Measures are the numeric facts we want to analyze — things like total sales,
+--     Measures are the numeric facts we want to analyze things like total sales,
 --     number of orders, and average price.
 --
 --     Exploring measures early gives us a high-level picture of the business
@@ -37,7 +37,7 @@ FROM gold.fact_sales;
 
 
 -- Step 2: Find the total number of items sold
---         This counts quantity, not orders — one order can have multiple items.
+--         This counts quantity, not orders one order can have multiple items.
 SELECT
     SUM(quantity) AS total_quantity
 FROM gold.fact_sales;
@@ -75,7 +75,7 @@ FROM gold.dim_customers;
 
 
 -- Step 7: Find how many customers have actually placed at least one order
---         This is different from Step 6 — not every customer in dim_customers
+--         This is different from Step 6 not every customer in dim_customers
 --         may have made a purchase. Comparing these two numbers reveals
 --         how many registered customers are inactive.
 SELECT
