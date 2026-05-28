@@ -30,7 +30,7 @@
 
 
 -- Step 1: Monthly sales trend using YEAR() and MONTH()
---         This is the simplest approach — extract year and month separately.
+--         This is the simplest approach extract year and month separately.
 --         The result has two date columns (year and month) which makes it
 --         easy to filter by a specific year or month independently.
 --         Always filter out NULL order dates to keep the results clean.
