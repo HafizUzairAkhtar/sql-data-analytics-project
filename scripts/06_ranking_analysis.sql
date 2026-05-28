@@ -6,7 +6,7 @@
 -- Purpose:
 --     This script ranks products and customers based on their performance.
 --     Ranking analysis helps us quickly identify who the top performers are
---     and who is underperforming — which is critical for business decisions
+--     and who is underperforming which is critical for business decisions
 --     like promotions, discontinuing products, or targeting key customers.
 --
 --     Two ranking approaches are demonstrated:
@@ -48,7 +48,7 @@ GROUP BY p.product_name
 ORDER BY total_revenue DESC;
 
 
--- Step 2: Top 5 products by revenue — flexible approach using RANK()
+-- Step 2: Top 5 products by revenue flexible approach using RANK()
 --         RANK() assigns a rank to each product based on total revenue.
 --         Wrapping it in a subquery lets us filter by rank number,
 --         which is more powerful than TOP when building reports or views.
@@ -69,7 +69,7 @@ WHERE rank_products <= 5;
 
 
 -- Step 3: Bottom 5 products by revenue
---         Same query as Step 1 but sorted ascending — lowest revenue first.
+--         Same query as Step 1 but sorted ascending lowest revenue first.
 --         These are candidates for review: low demand, pricing issues,
 --         or products that may need to be discontinued.
 SELECT TOP 5
@@ -84,7 +84,7 @@ ORDER BY total_revenue ASC;
 
 -- Step 4: Top 10 customers by revenue
 --         Identifies the highest-value customers in the business.
---         These are the customers most worth retaining — a small group
+--         These are the customers most worth retaining a small group
 --         often drives a large portion of total revenue.
 SELECT TOP 10
     c.customer_key,
