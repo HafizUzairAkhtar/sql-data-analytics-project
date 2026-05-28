@@ -34,7 +34,7 @@
 -- =============================================================================
 
 
--- Step 1: Top 5 products by revenue — simple approach using TOP
+-- Step 1: Top 5 products by revenue simple approach using TOP
 --         TOP 5 is quick and readable but not flexible.
 --         If you need to filter by rank later or change the cutoff dynamically,
 --         you will need the window function approach in Step 2.
