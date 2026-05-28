@@ -27,13 +27,13 @@
 -- =============================================================================
 
 
--- Step 1: Running total of sales and moving average price — by year
+-- Step 1: Running total of sales and moving average price by year
 --         The inner subquery first aggregates sales and average price per year.
 --         The outer query then applies window functions on top of that result.
 --
 --         SUM(total_sales) OVER (ORDER BY order_date):
 --             → Adds each year's sales to all previous years' totals.
---               The result keeps growing — that is the running total.
+--               The result keeps growing that is the running total.
 --
 --         AVG(avg_price) OVER (ORDER BY order_date):
 --             → Averages the price across all years up to the current row.
@@ -54,7 +54,7 @@ FROM (
 ) AS yearly_sales;
 
 
--- Step 2: Running total of sales and moving average price — by month
+-- Step 2: Running total of sales and moving average price by month
 --         Same logic as Step 1 but at monthly granularity.
 --         Monthly cumulative totals are more useful when the data spans
 --         only a few years, as yearly steps may be too few to see a trend.
@@ -74,7 +74,7 @@ FROM (
 ) AS monthly_sales;
 
 
--- Step 3: Running total of quantity sold — by year
+-- Step 3: Running total of quantity sold by year
 --         Tracks the cumulative number of items sold over time.
 --         Useful for inventory and supply chain planning — knowing the
 --         total units moved helps estimate future demand patterns.
