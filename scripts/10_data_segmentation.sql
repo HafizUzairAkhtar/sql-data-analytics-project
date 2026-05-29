@@ -8,7 +8,7 @@
 --     based on their characteristics and behavior.
 --
 --     Segmentation is one of the most valuable analytical techniques because
---     it lets the business treat different groups differently — for example,
+--     it lets the business treat different groups differently for example,
 --     rewarding VIP customers or reviewing low-cost product pricing.
 --
 --     Two segmentations are built in this script:
@@ -105,9 +105,9 @@ WITH customer_spending AS (
 --             VIP      → At least 12 months active AND spent more than 5,000
 --                        These are the most valuable long-term customers.
 --             Regular  → At least 12 months active BUT spent 5,000 or less
---                        Loyal but lower-value — candidates for upselling.
+--                        Loyal but lower-value candidates for upselling.
 --             New      → Active for less than 12 months
---                        Recently acquired — too early to judge their value.
+--                        Recently acquired too early to judge their value.
 --
 --         The inner SELECT applies the CASE logic per customer.
 --         The outer SELECT counts customers in each resulting segment.
