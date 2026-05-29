@@ -5,7 +5,7 @@
 -- =============================================================================
 -- Purpose:
 --     This script calculates what percentage each dimension contributes
---     to the overall total — answering the question:
+--     to the overall total answering the question:
 --     "What share of the whole does each part represent?"
 --
 --     Part-to-whole analysis is essential for understanding where revenue
@@ -68,7 +68,7 @@ ORDER BY total_sales DESC;
 
 
 -- Step 3: Category contribution by number of orders (not just revenue)
---         Revenue share alone can be misleading — a category with high revenue
+--         Revenue share alone can be misleading a category with high revenue
 --         but few orders may rely on a small number of expensive transactions.
 --         Comparing order share vs revenue share reveals this imbalance.
 WITH category_orders AS (
