@@ -192,7 +192,7 @@ Key tasks:
 - Segment products by cost range.
 - Segment customers into business groups such as VIP, Regular, and New.
 - Analyze category contribution to total sales.
-- Calculate percentage share of each category.
+- Calculate the percentage share of each category.
 
 ---
 
